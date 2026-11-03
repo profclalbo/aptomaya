@@ -1,0 +1,15 @@
+{
+  "name": "apto-maya",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Condomínio Pousada Lua Sol e Mar - temporada e controle de pagamentos",
+  "scripts": {
+    "dev": "node dev-server.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@vercel/blob": "^2.8.2",
+    "pdf-lib": "1.17.1"
+  }
+}
